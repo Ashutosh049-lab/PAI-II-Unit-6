@@ -17,7 +17,7 @@ const Home=()=>{
     if(error) return <h2>Error:{error}</h2>
 
     return (
-        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr",gap:"20px"}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"20px"}}>
             {products.map((product)=>(
                 <ProductCard key={product.id} data={product}/>
 
@@ -29,4 +29,3 @@ const Home=()=>{
 export default Home;
 
 
-// Uncaught TypeError: Cannot destructure property 'products' of 'useSelector(...)' as it is undefined.

@@ -1,13 +1,13 @@
-import { useState } from 'react'
+// // import { useState } from 'react'
 
 import { Routes,Route } from 'react-router-dom';
 import Home from "./pages/Home";
-
 
 const App=()=>{
   return (
     <Routes>
       <Route path='/' element={<Home/>} />
+     
     </Routes>
   )
 }
@@ -15,3 +15,4 @@ const App=()=>{
 
 
 export default App
+

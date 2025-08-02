@@ -7,7 +7,7 @@ const ProductCard=({data})=>{
 
     return (
         <div style={{border:"1px solid #ccc",padding:"15px",borderRadius:"8px"}}>
-            <img src="{image}" alt="title" style={{width:"150px",height:"100px", objectFit:"contain"}} />
+            <img src={image} alt={title} style={{width:"150px",height:"100px", objectFit:"contain"}} />
 
             <h4>{title}</h4>
             <p>{price}</p>
